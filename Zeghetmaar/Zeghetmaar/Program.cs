@@ -10,9 +10,31 @@ namespace Zeghetmaar
             SqlConnection conn = new SqlConnection();
             string cs = "Server=SQL6004.site4now.net;Database=DB_A2A0BC_vp;User Id=K0501;Password=ROCvT_K0501;";
             conn.ConnectionString = cs;
-
-            conn.Open();
-
+            try
+            {
+                conn.Open();
+                Console.WriteLine("Welkom!");
+            }
+            catch(SqlException sql)
+            {
+                Console.WriteLine("Verbinding met server is mislukt.");
+            }
+            catch(DivideByZeroException ex1)
+            {
+                Console.WriteLine("Niet deelbaar door nul");
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Exception");
+            }
+            finally
+            {
+                if(conn.State != System.Data.ConnectionState.Closed)
+                {
+                    conn.Close();
+                }
+            }
+            
         }
     }
 }
