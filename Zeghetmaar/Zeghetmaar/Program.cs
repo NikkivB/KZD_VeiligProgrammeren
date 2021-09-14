@@ -13,6 +13,12 @@ namespace Zeghetmaar
             try
             {
                 conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM Users;", conn);
+                SqlDataReader r = cmd.ExecuteReader();
+                while (r.Read())
+                {
+                    Console.WriteLine("Username: " + r[0] + " Password: " + r[1]);
+                }
                 Console.WriteLine("Welkom!");
             }
             catch(SqlException sql)
