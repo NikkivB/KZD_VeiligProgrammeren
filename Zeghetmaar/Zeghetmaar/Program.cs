@@ -16,8 +16,10 @@ namespace Zeghetmaar
                 string userName = Console.ReadLine();
                 Console.Write("Wachtwoord: ");
                 string passWord = Console.ReadLine();
+
                 conn.Open();
-                SqlCommand cmd = new SqlCommand("SELECT * FROM Users WHERE username = @USERNAME AND password = @PASSWORD collate Latin1_General_CS_AS;", conn);
+                SqlCommand cmd = new SqlCommand("splogin", conn);
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@USERNAME", userName);
                 cmd.Parameters.AddWithValue("@PASSWORD", passWord);
                 SqlDataReader r = cmd.ExecuteReader();
