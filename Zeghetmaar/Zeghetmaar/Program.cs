@@ -12,14 +12,22 @@ namespace Zeghetmaar
             conn.ConnectionString = cs;
             try
             {
+                Console.Write("Inlognaam: ");
+                string userName = Console.ReadLine();
+                Console.Write("Wachtwoord: ");
+                string passWord = Console.ReadLine();
                 conn.Open();
-                SqlCommand cmd = new SqlCommand("SELECT * FROM Users;", conn);
+                SqlCommand cmd = new SqlCommand("SELECT * FROM Users WHERE username = '" +
+                    userName + "' AND password = '" + passWord + "';", conn);
                 SqlDataReader r = cmd.ExecuteReader();
-                while (r.Read())
+                if (r.HasRows)
                 {
-                    Console.WriteLine("Username: " + r[0] + " Password: " + r[1]);
+                    Console.WriteLine("Succesvol ingelogt");
                 }
-                Console.WriteLine("Welkom!");
+                else
+                {
+                    Console.WriteLine("niet kunnen inloggen");
+                }
             }
             catch(SqlException sql)
             {

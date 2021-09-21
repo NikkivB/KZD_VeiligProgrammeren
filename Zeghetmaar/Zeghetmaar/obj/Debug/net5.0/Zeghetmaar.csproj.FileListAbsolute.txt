@@ -11,7 +11,6 @@ C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\Zeghetmaar\Zegh
 C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\Zeghetmaar\Zeghetmaar\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\Zeghetmaar\Zeghetmaar\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\Zeghetmaar\Zeghetmaar\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\Zeghetmaar\Zeghetmaar\obj\Debug\net5.0\Zeghetmaar.csprojAssemblyReference.cache
 C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\Zeghetmaar\Zeghetmaar\obj\Debug\net5.0\Zeghetmaar.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\Zeghetmaar\Zeghetmaar\obj\Debug\net5.0\Zeghetmaar.AssemblyInfoInputs.cache
 C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\Zeghetmaar\Zeghetmaar\obj\Debug\net5.0\Zeghetmaar.AssemblyInfo.cs
@@ -21,3 +20,4 @@ C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\Zeghetmaar\Zegh
 C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\Zeghetmaar\Zeghetmaar\obj\Debug\net5.0\ref\Zeghetmaar.dll
 C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\Zeghetmaar\Zeghetmaar\obj\Debug\net5.0\Zeghetmaar.pdb
 C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\Zeghetmaar\Zeghetmaar\obj\Debug\net5.0\Zeghetmaar.genruntimeconfig.cache
+C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\Zeghetmaar\Zeghetmaar\obj\Debug\net5.0\Zeghetmaar.csproj.AssemblyReference.cache
