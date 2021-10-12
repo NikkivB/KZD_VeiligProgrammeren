@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "Info";
+}
+
+<h1>Info</h1>
+
+@using (Html.BeginForm(FormMethod.Post))
+{
+    <div class="alert-danger">@ViewBag.Error</div>
+    <table>
+        <tr>
+            <td>Loginnaam</td>
+            <td><input type="text" name="username" value="@ViewBag.UserName" /></td>
+        </tr>
+        <tr>
+            <td>Wachwoord</td>
+            <td><input type="password" name="password" /></td>
+        </tr>
+    </table>
+    <input type="submit" value="Login" />
+}

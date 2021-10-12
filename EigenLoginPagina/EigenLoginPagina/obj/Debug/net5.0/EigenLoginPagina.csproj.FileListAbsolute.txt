@@ -355,3 +355,10 @@ C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\EigenLoginPagin
 C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\EigenLoginPagina\EigenLoginPagina\obj\Debug\net5.0\ref\EigenLoginPagina.dll
 C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\EigenLoginPagina\EigenLoginPagina\obj\Debug\net5.0\EigenLoginPagina.pdb
 C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\EigenLoginPagina\EigenLoginPagina\obj\Debug\net5.0\EigenLoginPagina.genruntimeconfig.cache
+C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\EigenLoginPagina\EigenLoginPagina\obj\Debug\net5.0\Razor\Views\Login\Login.cshtml.g.cs
+C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\EigenLoginPagina\EigenLoginPagina\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\EigenLoginPagina\EigenLoginPagina\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\EigenLoginPagina\EigenLoginPagina\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\EigenLoginPagina\EigenLoginPagina\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\EigenLoginPagina\EigenLoginPagina\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\nikki\Documents\School\2021-2022\KZD_VeiligProgrammeren\EigenLoginPagina\EigenLoginPagina\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

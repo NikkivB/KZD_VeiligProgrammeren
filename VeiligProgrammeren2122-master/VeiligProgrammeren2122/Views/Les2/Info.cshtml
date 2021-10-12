@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "Info";
+}
+
+<h1>Info</h1>
+
+@using (Html.BeginForm(FormMethod.Post))
+{
+<table>
+    <tr>
+        <td>Naam</td>
+        <td><input type="text" name="name" /></td>
+    </tr>
+    <tr>
+        <td>Leeftijd</td>
+        <td><input type="text" name="age" /></td>
+    </tr>
+</table>
+<input type="submit" value="Verstuur"/>
+}
+
